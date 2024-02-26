@@ -5,10 +5,10 @@ intents.messages = True
 # Initialize the bot client
 client = discord.Client(intents=intents)
 
-# Replace 'YOUR_BOT_TOKEN' with your actual bot token
+# Replace YOUR_BOT_TOKEN with your actual bot token
 TOKEN = 'YOUR_BOT_TOKEN'
 
-# replace '/path/to/gif' with the Path to the image file you want to use as the new avatar
+# replace /path/to/gif with the Path to the image file you want to use as the new avatar
 avatar_path = '/path/to/gif'
 
 # Read the image file as bytes
